@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f2f2f2;
+  font-family: "Arial", sans-serif;
+}
+
+#tamEkranButon {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1;
+}
+
+#tamEkranButon button {
+  font-size: 16px;
+  padding: 10px 20px;
+}
+
+#sayaç {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 72px;
+  font-weight: bold;
+  color: #333;
+}
+
+#kontroller {
+  position: absolute;
+  bottom: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+#kontroller button {
+  font-size: 24px;
+  padding: 10px 20px;
+  margin: 5px;
+}
